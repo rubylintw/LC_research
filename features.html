@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+	Cosmix by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>視覺化圖表 | 數位金融平台智慧型分析系統
+    </title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <!--favicon-->
+    <link rel="icon" href="images/favicon/favicon.ico">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--Animation-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Prettyphoto-->
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!--Owl-Slider-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/geodata/usaAlbersLow.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  [endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+    <!--Navigation-->
+    <header id="menu">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/Logo/01.png" alt=""></a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <!--    <li><a class="scroll" href="index.html">Home</a></li>-->
+                            <li><a class="scroll" href="about.html">關於我們</a></li>
+                            <li><a class="scroll" href="service.html">分析流程</a></li>
+                            <li class="active"><a class="scroll" href="features.html">視覺化圖表</a></li>
+                            <li><a class="scroll" href="team.html">團隊資訊</a></li>
+                            <li><a class="scroll" href="references.html">引用資料</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+        </div>
+    </header>
+    <!--Slider-Start-->
+    <section id="slider">
+        <div class="carousel slide aboutcarousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active bgslider">
+                    <div class="carousel-caption container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <h1>數位金融平台智慧型分析系統</h1>
+                                <h2>視覺化圖表</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/#home-carousel-->
+    </section>
+    <!--Service-Section-Start-->
+    <section id="service">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 topwhite">
+                <div class="heading whiteh2">
+                    <h2>工作年資暨<span>呆帳風險比例圖</span></h2>
+                    <div class="line linespan"></div>
+                    <p>根據在LC平台金融交易紀錄，將客戶個人工作年資資料，計算貸款人數比重繪製直方圖，並將呆帳率以折線圖的方式呼應呈現。視覺化後的數據意涵指出：不管工作年資多長，呆帳比率皆約為17%左右，故不同年資與呆帳率，並無太大相關性。</p>
+                </div>
+            </div>
+            <div class="features-sec col-md-12">
+
+                <div class="chart" id="chartdiv-emp_length"></div>
+
+                <!--/.col-md-4-->
+            </div>
+            <div class="col-md-8 col-md-offset-2 topwhite">
+                <div class="heading whiteh2">
+                    <h2>客戶等級<span>貸款狀況分佈</span></h2>
+                    <div class="line linespan"></div>
+                    <p>評鑑客戶等級貸款金額比例分佈，風險由低至高 A~G 圓餅圖是從平台暨有的客戶評等制度下，對客戶分別 A 至 G 共計 7 個等級，A 是最優等，G 則是高風險等級的客戶</p>
+                </div>
+            </div>
+            <div class="features-sec col-md-12">
+
+
+                <div class="chart" id="chartdiv-grade"></div>
+
+                <!--/.col-md-4-->
+            </div>
+
+            <div class="col-md-8 col-md-offset-2">
+                <div class="heading whiteh2">
+                    <h2>美國全州各年間<span>貸款狀況分佈</span></h2>
+                    <div class="line linespan"></div>
+                    <p>透過美國地圖動態顯示各州別貸款狀態-全額付清、呆帳，並依照放款日期擷取年份，呈現年度對比。 當使用者點擊不同州別，將同步繪製全州各年間貸款狀況的雙向柱狀圖，獲取呆帳的分佈資訊。</p>
+                </div>
+            </div>
+
+            <div class="features-sec col-md-12">
+
+
+                <div class="chart" id="chartdiv-USApyramid"></div>
+
+                <!--/.col-md-4-->
+            </div>
+
+
+            <div class="pageBack features-sec col-md-12"><a href="service.html"><span>回上一頁</span></a></div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="bg-sec">
+            <div class="container">
+                <p>財團法人自強工業科學基金會 大數據速成班第01期 & <a href="http://templatestock.co" target="_blank">Template Stock</a> 版權所有 © 2021 TCFST and <a href="http://templatestock.co" target="_blank">Template Stock</a> All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Jquery-->
+    <script src="js/jquery.min.js"></script>
+    <!--Boostrap-Jquery-->
+    <script src="js/bootstrap.js"></script>
+    <!--Preetyphoto-Jquery-->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--NiceScroll-Jquery-->
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!--Isotopes-->
+    <script src="js/jquery.isotope.js"></script>
+    <!--Wow-Jquery-->
+    <script src="js/wow.js"></script>
+    <!--Count-Jquey-->
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <!--Owl-Crousels-Jqury-->
+    <script src="js/owl.carousel.js"></script>
+    <!--Main-Scripts-->
+    <script src="js/script.js"></script>
+    <!--Charts-->
+    <script src="js/gradejs.js"></script>
+    <script src="js/emp_length.js"></script>
+    <script src='js/USApyramid.js'></script>
+</body>
+
+</html>
+
+<!-- Hosting24 Analytics Code -->
+<script src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

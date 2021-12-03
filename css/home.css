@@ -1,0 +1,270 @@
+.aboutuspic {
+    max-width: 100%;
+}
+
+.linespan {
+    margin-bottom: 20px;
+}
+
+.bgslider {
+    background-image: url(../images/Slider/01.jpg)
+}
+
+.pull-left .printBtn {
+    background-color: #999;
+    background-image: url(../images/icons/web-add-print.svg);
+    margin-right: 5px;
+}
+
+.hsixword {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-size: 16px;
+}
+
+/*******************************/
+/********** Facts CSS **********/
+/*******************************/
+.facts {
+    align-items: center;
+    background: #e73131;
+    padding: 2% 0%;
+}
+
+.facts .facts-item {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.facts .facts-item i {
+    margin: 0;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.facts .facts-text {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.facts .facts-text h3 {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.facts .facts-text h3::after {
+    position: absolute;
+    content: "\f067";
+    top: 0px;
+    right: -25px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.facts .facts-text p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/*******************************/
+/*********** Team CSS **********/
+/*******************************/
+.team {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.team .team-item {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+}
+
+.team .team-img {
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.team .team-img img {
+    width: 100%;
+    transition: .3s;
+}
+
+.team .team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team .team-text {
+    position: relative;
+    width: 100%;
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    background: #202C45;
+    border-radius: 0 0 5px 5px;
+    transition: .5s;
+}
+
+.team .team-item:hover .team-text {
+    background: #E81C2E;
+}
+
+.team .team-text h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.team .team-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.team .team-social {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: -20px;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+.team .team-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    padding: 7px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background: #202C45;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.team .team-item:hover .team-social a {
+    background: #E81C2E;
+}
+
+.team .team-social a:hover {
+    color: #202C45;
+}
+
+/*測試 chart*/
+
+#chartdiv {
+    width: 100%;
+    height: 500px;
+}
+
+.bubox {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 13px;
+}
+
+.button {
+    padding: 3px 9px;
+    color: #fff;
+    background-color: #E81C2E;
+    width: 25%;
+    display: inline;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+
+/** more **/
+.more {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.more a {
+    display: inline-block;
+    color: #555;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 3px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+}
+
+.more a span {
+    position: relative;
+    padding: 0 25px 0 0;
+    color: #555;
+    transform: rotateY(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkittransform: rotate(360deg);
+    transition: all 0.5s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.more a span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 52%;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    margin: -9px 0 0 0;
+    background-image: url(../images/icons/more.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+.more a:hover,
+.more a:focus {
+    background-color: #e73131;
+    border-color: #e73131;
+}
+
+.more a:hover span,
+.more a:focus span {
+    color: #fff;
+}
+
+.more a:hover span:after,
+.more a:focus span:after {
+    background-image: url(../images/icons/more-on.svg);
+}
+
+@media screen and (min-width: 768px) {
+    .more {
+        text-align: center;
+    }
+}
